@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem 0 0 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding-top: 1.4rem;
+    /* text-decoration: none; */
+}
+
+.home, .about {
+    text-decoration: none;
+}
+
+.top-image {
+   margin: 0 auto;
+    padding: 1rem;
+    width: 800px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -85,6 +112,56 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-container {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 800px;
+}
+
+.about-text {
+    margin: 1rem;
+}
+
+
+/* #about-title {
+    ;
+} */
+
+.middle-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px;
+}
+
+.middle-box-content {
+    width: 50%;
+    margin: 1rem auto 1rem auto;
+    /* padding: 1rem; */
+}
+
+.learn-more-button {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: .5rem 0;
+    background-color: white;
+    text-align: center;
+    margin: 1rem 0 1rem;
+    width: 35%;
+}
+
+.second-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.bottom-box-content {
+    margin-bottom: 2rem;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -99,6 +176,46 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color:gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes .box {
